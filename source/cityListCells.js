@@ -91,7 +91,7 @@ class AddCityCell extends Component {
 }
 const addCityCell = StyleSheet.create({
   addText: {
-    fontSize: 14,
+    fontSize: 16,
     color: "white"
   }
 });
