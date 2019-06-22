@@ -49,12 +49,7 @@ class TemperatureView extends Component {
           { opacity: 1.0, top: Utilies.titleViewHeight }
         ]}
       >
-        <Text style={temperature.temperature}>
-          <Text style={{ height: 150, width: 150 }}>
-            {Utilies.iconImage(this.props.iconType)}{" "}
-          </Text>
-          {this.props.temperature}°
-        </Text>
+        <Text style={temperature.temperature}>{this.props.temperature}°</Text>
       </View>
     );
   }
@@ -130,7 +125,7 @@ const bottomBar = StyleSheet.create({
   pageControl: {
     textAlign: "center",
     color: "white",
-    fontSize: 12
+    fontSize: 14
   }
 });
 BottomToolBar.defaultProps = {

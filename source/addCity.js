@@ -1,5 +1,6 @@
 "use strict";
 import React, { Component } from "react";
+
 import {
   StyleSheet,
   View,
@@ -80,9 +81,10 @@ class CitySearchBar extends Component {
   render() {
     return (
       <View style={citySearchBar.container}>
-        <Text style={{ fontSize: 10, color: "white" }}>
-          Enter the city or Zip code
-        </Text>
+        <Text
+          style={{ fontSize: 10, color: "white" }}
+          accessibilityHint=" Enter the city or Zip code"
+        />
         {this.searchInput()}
       </View>
     );

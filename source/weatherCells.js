@@ -253,7 +253,7 @@ class WeatherDetailCell extends Component {
               paddingTop: i % 2 == 0 ? 5 : 2,
               paddingBottom: i % 2 == 0 ? 2 : 5,
               textAlign: align,
-              height: 24
+              height: 30
             }
           ]}
           key={i}

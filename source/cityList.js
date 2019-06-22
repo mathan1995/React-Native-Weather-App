@@ -6,7 +6,8 @@ import {
   Text,
   StatusBar,
   ListView,
-  TouchableOpacity
+  TouchableOpacity,
+  Image
 } from "react-native";
 import { SwipeRow, SwipeListView } from "react-native-swipe-list-view";
 import { CityCell, AddCityCell, OpenWebsitCell } from "./cityListCells";
@@ -90,7 +91,10 @@ class CityListPage extends Component {
             Utilies.saveCityList(allCity);
           }}
         >
-          <Text style={{ fontSize: 20, color: "white" }}>Delete</Text>
+          <Image
+            source={require("./../assets/delete.png")}
+            style={{ width: 50, height: 50 }}
+          />
         </TouchableOpacity>
       </View>
     );
@@ -120,7 +124,7 @@ const cityList = StyleSheet.create({
     bottom: 0,
     right: 0,
     width: 80,
-    backgroundColor: "red",
+    backgroundColor: "#c21500",
     justifyContent: "center",
     alignItems: "center"
   }

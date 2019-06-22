@@ -1,5 +1,6 @@
 "use strict";
 import React, { Component } from "react";
+
 import { StyleSheet, View, Text, TouchableOpacity, Image } from "react-native";
 import Utilies from "./utilies";
 
@@ -79,10 +80,10 @@ class AddCityCell extends Component {
     return (
       <View style={cityCell.container}>
         <TouchableOpacity onPress={() => this.props.changeType()}>
-          <Text style={[addCityCell.addText, { fontSize: 30 }]}> °C/°F </Text>
+          <Text style={[addCityCell.addText, { fontSize: 30 }]}> °C </Text>
         </TouchableOpacity>
         <TouchableOpacity onPress={() => this.props.addCity()}>
-          <Text style={[addCityCell.addText, { fontSize: 30 }]}>+</Text>
+          <Text style={[addCityCell.addText, { fontSize: 50 }]}>+</Text>
         </TouchableOpacity>
       </View>
     );
@@ -104,10 +105,10 @@ class OpenWebsitCell extends Component {
   render() {
     return (
       <View style={{ justifyContent: "center", alignItems: "center" }}>
-        <Image
+        {/* <Image
           source={require("./../assets/weatherIcon.png")}
-          style={{ width: 30, height: 30 }}
-        />
+          style={{ width: 50, height: 50 }}
+        /> */}
       </View>
     );
   }
