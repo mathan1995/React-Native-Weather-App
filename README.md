@@ -32,6 +32,5 @@ This command use to run the app in emulator and building configuration files wit
 This command use to run the app in emulator ios.
 
 ### `Screen snaps`
-https://github.com/mathan1995/React-Native-Weather-App/blob/master/assets/snaps%201.PNG
-https://github.com/mathan1995/React-Native-Weather-App/blob/master/assets/snaps%202.PNG
+https://github.com/mathan1995/React-Native-Weather-App/blob/master/assets/snaps%201.PNG?raw=true
 
