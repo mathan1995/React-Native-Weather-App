@@ -2,7 +2,7 @@
 
 ## Project Bio
 
-Weather application shows the current weather according to loacation and you have tghe features to search for the cities and find the represented current weather in the city
+Weather application shows the current weather according to loacation and you have the features to search for the cities and find the represented current weather in the city
 and these all data gathered using wunderground weather API with the help of https://weather.com/ Personal weather station (PWS) to get the weather information.
 
 When users open this mobile app, they will see the screen with the temperature of Latitude 6.927079 and Longitude 79.861244 City Name: Colombo Western province.
