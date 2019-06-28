@@ -22,7 +22,7 @@ http://api.weather.com/v1/geocode/e45ff1b7c7bda231216c7ab7c33509b8
 Starting application with these following commands below,
 
 ### `npm install`
-installing needed pavkages according to the project dependencies.
+installing needed packages according to the project dependencies.
 
 ### `npm start` 
 This allow the user to start the package manager and run the application on android device or emulator as like the image shown in the below portion.
